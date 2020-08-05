@@ -1,0 +1,61 @@
+@font-face {
+	font-family: Poppins;
+	src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+}
+
+body { background-color: white;
+	
+}
+
+#logow {
+	width: 200px;
+	height: 200px;
+}
+
+#logos {
+	transition: 0.4s;
+	position: absolute; 
+	width: 150px;
+	height: 150px;
+	left: 100px; 
+	top: 20px;
+
+}
+
+#shape {
+	position: absolute;
+	width: 1000px;
+	height: 2853px;
+	left: 190px;
+	top: 200px;
+	background: #EAEAEA;
+	border-radius: 70px;
+	z-index: 5;
+	transition: 0.2s;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 3200px;
+	background: #626262;
+	z-index: 90;
+}
+
+#header {
+	position: fixed;
+	padding: 70px 0px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 99;
+	background-color: white;
+	font-family: Poppins;
+	font-style: normal;
+	font-size:8px;
+	transition: 0.4s;
+
+	
+}
